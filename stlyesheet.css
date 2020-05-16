@@ -1,0 +1,23 @@
+.menu {
+  background-color: blue;
+}
+
+.menu ul {
+  list-style: none;
+  text-align: left;
+}
+
+.menu ul li
+{
+  display: inline-block;
+  margin: 0;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+  color: red;
+}

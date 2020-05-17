@@ -13,5 +13,36 @@
           <li class="nav-link"><a href="#">Troubleshoot</li>
         </ul>
       </nav>
-  </body>
+      <div class="user-input-section">
+        <div class="input-container">
+          <form class="user-input-form">
+            <label>Manufature</label><br>
+             <select id = "manufatureList">
+               <option value = "Null">Select</option>
+               <option value = "Goodman">Goodman</option>
+               <option value = "Trane">Trane</option>
+               <option value = "Lennox">Lennox</option>
+             </select>
+          </form>
+        </div>
+        <div class="input-container">
+          <form class="user-input-form">
+            <label>Appliance Type</label><br>
+             <select id = "applianceList">
+               <option value = "Null">Select</option>
+               <option value = "HVAC">HVAC</option>
+               <option value = "WaterHeater">Water Heater</option>
+             </select>
+          </form>
+        </div>
+        <div class="input-container">
+          <form class="user-input-form">
+            <label for="applianceSN">Appliance Serial Number</label><br>
+            <input type="text" id="applianceSN">
+            <button id="input-submit" type="submit">Search</button>
+          </form>
+
+        </div>
+      </div>
+    </body>
 </html>
